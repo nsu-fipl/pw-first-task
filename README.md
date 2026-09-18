@@ -101,4 +101,4 @@ git push
 
 ## Как запускать тесты локальны и смотреть их результаты
 * `pip install pytest`
-* `python -m pytest tests
+* `python -m pytest tests` - запускать в корне репозитория
