@@ -101,4 +101,4 @@ git push
 
 ## Как запускать тесты локальны и смотреть их результаты
 * `pip install pytest`
-* `python -m pytest grading_test.py`
+* `python -m pytest tests
