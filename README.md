@@ -1,4 +1,4 @@
-# Deadline: October 3rd, 09:00 (Nsk time)
+# Deadline: October 10th, 09:00 (Nsk time)
 
 # Задание 1. Двуличная личность
 
