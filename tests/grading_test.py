@@ -2,7 +2,7 @@ import hashlib
 
 expected = '''437c569c85798f09571f9673446712bee75b7be56f3fbdc058949652eaa5ee25
 05071330a14e57d19e6fd26a71e9dcca82a796020e726acbc97eb37dd9f5863f
-4c0fe4b6b3186f24c3056c55e341ab825b680274e06dd93d307a840177d7dc23
+c9f95f149c7b42490467bacb3a03aa60c290437cebd82025c22711fd1f9ccb1b
 9f4ddbdc6b6ff86a6b9c43e2d1c115e18b1fa6fb14a53301f041fe757c4bfed1
 0bfab9444575bcf30b39757a51e9626051690b37073167a2233b59b52e01593a
 86742d54b5d8a35591e82ef454ebfcf5549c51fb5e67a661640d575643828c19
@@ -39,7 +39,7 @@ def hex(cmd):
 
 
 def test_git():
-    with open("commands.txt") as f:
+    with open("commands.txt", encoding='utf-8') as f:
         cmd = f.readline()
         print(cmd)
         assert cmd
